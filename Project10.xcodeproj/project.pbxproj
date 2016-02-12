@@ -14,6 +14,7 @@
 		C49EF6E11C6CF0F3001C6D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49EF6DF1C6CF0F3001C6D93 /* LaunchScreen.storyboard */; };
 		C49EF6EC1C6CF0F3001C6D93 /* Project10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49EF6EB1C6CF0F3001C6D93 /* Project10Tests.swift */; };
 		C49EF6F71C6CF44D001C6D93 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49EF6F61C6CF44D001C6D93 /* PersonCollectionViewCell.swift */; };
+		C49EF6FA1C6E3A00001C6D93 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49EF6F91C6E3A00001C6D93 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		C49EF6ED1C6CF0F3001C6D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49EF6F61C6CF44D001C6D93 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
 		C49EF6F81C6CF5D3001C6D93 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C49EF6F91C6E3A00001C6D93 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				C49EF6DF1C6CF0F3001C6D93 /* LaunchScreen.storyboard */,
 				C49EF6E21C6CF0F3001C6D93 /* Info.plist */,
 				C49EF6F61C6CF44D001C6D93 /* PersonCollectionViewCell.swift */,
+				C49EF6F91C6E3A00001C6D93 /* Person.swift */,
 			);
 			path = Project10;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				C49EF6D91C6CF0F3001C6D93 /* ViewController.swift in Sources */,
 				C49EF6F71C6CF44D001C6D93 /* PersonCollectionViewCell.swift in Sources */,
+				C49EF6FA1C6E3A00001C6D93 /* Person.swift in Sources */,
 				C49EF6D71C6CF0F3001C6D93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
