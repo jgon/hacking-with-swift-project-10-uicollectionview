@@ -66,7 +66,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="L4S-fM-WIV" secondAttribute="bottom" id="dfC-HS-K9h"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="czh-9j-vRJ"/>
+                    <navigationItem key="navigationItem" id="czh-9j-vRJ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="WI9-vg-0rR">
+                            <connections>
+                                <action selector="addNewPerson:" destination="BYZ-38-t0r" id="8Tb-Dz-MQZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="L4S-fM-WIV" id="nRK-D9-Dyn"/>
                     </connections>
