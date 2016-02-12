@@ -44,6 +44,24 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         return cell
     }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let person = people[indexPath.item]
+        
+        let alertController = UIAlertController(title: "Rename person", message: nil, preferredStyle: .Alert)
+        
+        alertController.addTextFieldWithConfigurationHandler(nil)
+        
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { [unowned self, alertController] (UIAlertAction) -> Void in
+            let newName = alertController.textFields![0]
+            person.name = newName.text!
+            self.collectionView.reloadData()
+        }))
+        
+        presentViewController(alertController, animated: true, completion: nil)
+    }
 
     @IBAction func addNewPerson(sender: UIBarButtonItem) {
         let pickerController = UIImagePickerController()
